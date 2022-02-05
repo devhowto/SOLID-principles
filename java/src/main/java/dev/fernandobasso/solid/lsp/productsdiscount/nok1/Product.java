@@ -1,4 +1,4 @@
-package dev.fernandobasso.solid.liskov.productsdiscount.nok1;
+package dev.fernandobasso.solid.lsp.productsdiscount.nok1;
 
 public class Product {
   protected double _discount = 20;

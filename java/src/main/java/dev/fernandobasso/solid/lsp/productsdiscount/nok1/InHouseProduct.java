@@ -1,4 +1,4 @@
-package dev.fernandobasso.solid.liskov.productsdiscount.nok1;
+package dev.fernandobasso.solid.lsp.productsdiscount.nok1;
 
 public class InHouseProduct extends Product {
   public void applyExtraDiscount() {
