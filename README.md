@@ -2,11 +2,11 @@
 
 Some notes and examples on [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
 
-- srp:  Single responsibility
-- ocp: Open–closed
-- lsp: Liskov substitution
-- isp: Interface segregation
-- dip: Dependency inversion
+- srp:  Single Responsibility
+- ocp: Open–Closed
+- lsp: Liskov Substitution
+- isp: Interface Segregation
+- dip: Dependency Inversion
 
 
 
@@ -52,5 +52,6 @@ Check `java/Makefile`. Run the examples with something like:
 $ make hello
 $ make lsp_productsdiscount_nok1
 ```
+
 
 

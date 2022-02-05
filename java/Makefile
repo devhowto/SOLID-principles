@@ -21,3 +21,13 @@ lsp_productsdiscount_nok1:
 	mvn package && java \
 		-cp target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.lsp.productsdiscount.nok1.Main
+
+lsp_birds_nok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.lsp.birds.nok1.Main
+
+lsp_cars_nok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.lsp.cars.nok1.Main
