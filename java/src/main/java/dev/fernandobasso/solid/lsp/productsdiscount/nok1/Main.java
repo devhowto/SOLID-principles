@@ -24,7 +24,10 @@ public class Main {
       //
       // Tell, don't ask.
       //
-      // But here we are asking if product is an instance of InHouseProduct.
+      // But here we are asking if product is an instance of
+      // InHouseProduct and applying the extra discount if the instance
+      // of test passes. We should find a way to avoid asking for the
+      // type.
       //
       if (product instanceof InHouseProduct) {
         ((InHouseProduct) product).applyExtraDiscount();

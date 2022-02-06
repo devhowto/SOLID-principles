@@ -25,8 +25,8 @@ public class Main {
       // Because we changed InHouseProduct, we are now able to treat all
       // products as generic Product and ask for its discount.
       // InHouseProduct#getDiscount() has been updated to handle the
-      // situation in a way that does not require calling/client code
-      // to work around the differences between Product and InHouseProduct.
+      // situation in a way that does not require calling/client code to
+      // work around the differences between Product and InHouseProduct.
       //
 
       System.out.println(product.getDiscount());

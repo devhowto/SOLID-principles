@@ -1,0 +1,39 @@
+@startuml Cars
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+skinparam DefaultFontName Source Code Pro Semibold
+skinparam DefaultFontSize 15
+skinparam ArrowThickness 1.5
+skinparam ArrowColor #purple
+
+note as N1
+  Product gets 20% discount, while
+  InHouseProduct gets 1.5x that.
+
+  If Product gets 20%, 1.5x that,
+  it is 30%, so, InHouseProduct
+  gets 30% discount.
+end note
+
+class Product {
+  getDiscount(): double
+}
+
+note left of Product
+  20% discount.
+end note
+
+class InHouseProduct {
+  getDiscount(): double
+}
+
+note left of InHouseProduct
+  1.5x Product discount.
+end note
+
+Product <|-- InHouseProduct : inherits from <
+
+'N1 .. Product
+'N1 .. InHouseProduct
+
+@enduml

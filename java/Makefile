@@ -31,3 +31,8 @@ lsp_cars_nok1:
 	mvn package && java \
 		-cp target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.lsp.cars.nok1.Main
+
+lsp_cars_ok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.lsp.cars.ok1.Main
