@@ -1,0 +1,11 @@
+{
+  "editor.rulers": [
+    72,
+    80,
+    116
+  ],
+  "vim.textwidth": 72,
+  "cSpell.words": [
+    "Racecar"
+  ]
+}
