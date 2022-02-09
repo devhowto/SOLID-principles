@@ -2,15 +2,15 @@
 
 Some notes and examples on [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
 
-- srp:  Single Responsibility
-- ocp: Open–Closed
-- lsp: Liskov Substitution
-- isp: Interface Segregation
-- dip: Dependency Inversion
-
-
+- SRP:  Single Responsibility
+- OCP: Open–Closed
+- LSP: Liskov Substitution
+- ISP: Interface Segregation
+- DIP: Dependency Inversion
 
 **NOTE**: The [main repo is the one on Gitlab](https://gitlab.com/devhowto/solid-principles). The [Github repo](https://github.com/devhowto/SOLID-principles) is only a mirror. Discussion, issues, PRs, etc. should be happen on [Gitlab](https://gitlab.com/devhowto/solid-principles).
+
+**NOTE**: Gitlab renders the PlantUML diagrams (Github does not).
 
 ## Licensing
 
