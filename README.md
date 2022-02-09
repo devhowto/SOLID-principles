@@ -10,7 +10,7 @@ Some notes and examples on [SOLID principles](https://en.wikipedia.org/wiki/SOLI
 
 **NOTE**: The [main repo is the one on Gitlab](https://gitlab.com/devhowto/solid-principles). The [Github repo](https://github.com/devhowto/SOLID-principles) is only a mirror. Discussion, issues, PRs, etc. should be happen on [Gitlab](https://gitlab.com/devhowto/solid-principles).
 
-**NOTE**: Gitlab renders the PlantUML diagrams (Github does not).
+**NOTE**: Gitlab renders the PlantUML diagrams (Github does not). Therefore, we strongly recommend that this text be read on the Gitlab repo.
 
 ## Licensing
 
