@@ -27,6 +27,16 @@ lsp_birds_nok1:
 		-cp target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.lsp.birds.nok1.Main
 
+ocp_insurancediscount_nok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.ocp.insurancediscount.nok1.Main
+
+ocp_insurancediscount_ok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.ocp.insurancediscount.ok1.Main
+
 lsp_cars_nok1:
 	mvn package && java \
 		-cp target/java-1.0-SNAPSHOT.jar \
