@@ -1,5 +1,10 @@
 # Liskov Substitution Principle
 
+- [Liskov Substitution Principle](#liskov-substitution-principle)
+  - [Birds, Ducks and Ostriches](#birds-ducks-and-ostriches)
+  - [Products](#products)
+  - [Cars](#cars)
+
 Named after Barbara Liskov.
 
 **RULE**: Objects should be replaceable with their sub-types without affecting the correctness of the program.

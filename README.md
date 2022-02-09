@@ -1,5 +1,10 @@
 # SOLID Principles
 
+- [SOLID Principles](#solid-principles)
+  - [Licensing](#licensing)
+  - [Java](#java)
+    - [Running the Examples](#running-the-examples)
+
 Some notes and examples on [SOLID principles](https://en.wikipedia.org/wiki/SOLID).
 
 - SRP:  Single Responsibility
