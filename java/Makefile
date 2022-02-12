@@ -46,3 +46,14 @@ lsp_cars_ok1:
 	mvn package && java \
 		-cp target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.lsp.cars.ok1.Main
+
+isp_printscanfax_nok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.isp.printscanfax.nok1.Main
+
+isp_printscanfax_ok1:
+	mvn package && java \
+		-cp target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.isp.printscanfax.ok1.Main
+
