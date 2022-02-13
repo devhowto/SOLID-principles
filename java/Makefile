@@ -57,3 +57,13 @@ isp_printscanfax_ok1:
 		-cp target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.isp.printscanfax.ok1.Main
 
+dip_ecommerce_nok1:
+	mvn package && java \
+		-classpath target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.dip.ecommerce.nok1.Main
+
+dip_ecommerce_ok1:
+	mvn package && java \
+		-classpath target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.dip.ecommerce.ok1.Main
+
