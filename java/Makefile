@@ -67,3 +67,7 @@ dip_ecommerce_ok1:
 		-classpath target/java-1.0-SNAPSHOT.jar \
 		dev.fernandobasso.solid.dip.ecommerce.ok1.Main
 
+dip_ecommerce_ok2:
+	mvn package && java \
+		-classpath target/java-1.0-SNAPSHOT.jar \
+		dev.fernandobasso.solid.dip.ecommerce.ok2.ECommerceAppliction
